@@ -1,0 +1,55 @@
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">
+        <!-- <img class="img-thumbnail rounded-circle" src="../assets/images/logoCircular.jpg" /> -->
+      </a>
+    <!--   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+
+
+<!--     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <a class="navbar-brand " href="#"><img class="img-thumbnail rounded-circle" src="../assets/images/logoCircular.jpg" /></a>
+ -->
+<!--
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">kkkkk</span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+     <!--      <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li> -->
+
+ <li class="nav-item">
+         <a class="nav-link" routerLink="/talleres">Talleres</a>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link" routerLink="/capacitaciones">Capacitaciones</a>
+      </li>
+    <li class="nav-item">
+         <a class="nav-link" routerLink="/">Infografias</a>
+      </li>
+
+       <li class="nav-item">
+         <a class="nav-link" routerLink="/postulaciones">Postulaciones</a>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link" routerLink="/ofertas-laborales">Ofertas de Trabajo</a>
+      </li>
+
+    <li class="nav-item">
+         <a class="nav-link" routerLink="/usuarios">Usuarios</a>
+      </li>
+        </ul>
+        <div ngbDropdown class="d-inline-block">
+      <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Ingresar</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <a class="dropdown-item" routerLink="/login-google">Google</a>
+        <a class="dropdown-item" routerLink="/login-mail" >Mail</a>
+      </div>
+      </div>
+      </div>
+</nav>
